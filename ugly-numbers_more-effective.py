@@ -6,7 +6,15 @@
 # Version with improved performance and with cache in memory
 
 def ugly_number(n: int, ugly: list = [1], c: list = [0, 0, 0, 2, 3, 5]) -> int:
-
+    '''
+    The function counts successive "ugly numbers" (it does not check 
+    successively whether the numbers belong to them).
+    
+    As a curiosity, the variables @ugly (containing the current calculated 
+    numbers) and @c (containing the current states of the function's 
+    parameters) retain their values between successive calls, which 
+    speeds up the task.
+    '''
     if len(ugly) >= n:
         return ugly[n-1]
 

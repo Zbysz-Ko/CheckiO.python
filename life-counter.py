@@ -12,7 +12,7 @@ def life_counter(state: tuple, tick_n: int) -> int:
     result - number of live cell for the Nth steps
     '''
 
-    # Array of neighbouring cell positions
+    # Array of adjacent cell positions
     movement = ((-1,-1),(0,-1),(1,-1),(-1,0),(1,0),(-1,1),(0,1),(1,1))
     
     # Change input tuples to lists
