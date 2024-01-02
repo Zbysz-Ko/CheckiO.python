@@ -1,6 +1,6 @@
 # CheckiO.python
 
-The repository contains some of my solutions to the CheckiO puzzles that were a little bit more difficult for me to solve.
+The repository contains some of my solutions to the CheckiO puzzles.
 
 More interesting are:
 * Cheapest flight - The difficulty with recursion is the abstract way in which a function can call itself.
