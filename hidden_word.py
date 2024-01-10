@@ -9,7 +9,7 @@ def checkio(text, word):
     """ Find start and end position
         (horizontally or vertically)
         of 'word' in 'text'"""
-    text = [i.strip().replace(" ", "").lower() for i in text.splitlines()]
+    text = text.replace(" ", "").lower().splitlines()
     for row, t in enumerate(text):
         for col in [i for i, _ in enumerate(t) if _ == word[0]]:            # Find occurrences of the first letter in a line
             if len(t) >= col+len(word) and t[col:col+len(word)] == word:    # Check "word" horizontally
