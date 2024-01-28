@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """ Learning Python
-    Task from Checkio.org - Weekend counter
+    Task from Checkio.org - Unix Match part 1
 """
 
 def unix_match(filename: str, pattern: str) -> bool:
