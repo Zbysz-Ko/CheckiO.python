@@ -6,7 +6,7 @@
 
 def unix_match(filename: str, pattern: str) -> bool:
     """ Match pattern to filename """
-    
+
     pos, star = 0, False
 
     for i, char in enumerate(pattern):
